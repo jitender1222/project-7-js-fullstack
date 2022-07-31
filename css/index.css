@@ -1,0 +1,166 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lora:ital@1&family=Montserrat:ital,wght@1,600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lora:ital@1&family=Montserrat:ital,wght@1,900&display=swap');
+body{
+    overflow: hidden;
+}
+nav{
+    position: relative;
+}
+nav img{
+    position: relative;
+    top: 20px;
+    width:80px;
+    left:5%;
+}
+nav img[alt~="actions"]{
+    position: relative;
+    left:85%;
+    width: 10%;
+}
+.nav-items{
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left:40%;
+    justify-content: center;
+    width:30%;
+}
+
+.sub-headline{
+    position: relative;
+    top:20px;
+    left:20%;
+}
+.sub-headline img{
+    background-color: tomato;
+    border-radius:30px;
+    height:20px;
+    position: relative;
+    left:-15px;
+    top: 8px;
+}
+
+.text{
+    margin-top:10%;
+    margin-left:5%;
+    color:rgb(197, 195, 195)
+}
+.nav-item{
+    display: flex;
+    flex-grow: 1;
+}
+.active-item{
+    color:tomato;
+}
+
+.left-section{
+   
+    position: relative;
+    top: 20px;
+}
+h3{
+    position: relative;
+    top:30px;
+    left:10%;
+    font-size: 30px;
+}
+h3  img{
+    width: 20px;
+}
+h1{
+    position: relative;
+    top: 30px;
+    left:80px;
+    font-size: 40px;
+    font-family:Montserrat ,cursive;
+}
+.left-section{
+    width: 50%;
+}
+
+.right-section{
+   
+    position: absolute;
+    left:50%;
+}
+
+.discount-content+ img{
+    position: absolute;
+    top:-150%;
+    width:350px; 
+    left:30%;
+}
+.discount{
+    position: relative;
+    z-index: 1;
+    top:-250px;
+    left:-10%;
+    width: 150px;
+}
+
+.discount-content{
+    position: relative;
+    top:-380px;
+    left:10%;
+    z-index: 2;
+    color: white;
+}
+ .discount-content > h1{
+    position: relative;
+    top:-25px;
+    left:5px;
+} 
+.action-btns{
+    position: relative;
+    top:10px;
+}
+.action-btns > button {
+    width: 20%;
+    height: 40px;
+    margin:20px;
+    background-color: tomato;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.dots{
+    display: flex;
+    position: absolute;
+    top:-30%;
+    left:100%;
+    margin: 15px;
+}
+
+.dot{
+    margin: 10px;
+}
+.yellow-dot{
+background-color: yellow;
+height:20px;
+width: 20px;
+border-radius:10px;
+}
+.tomato-dot{
+    background-color: tomato;
+    height:20px;
+    width: 20px;
+    border-radius:10px;
+}
+.black-dot{
+    background-color: black;
+    height:20px;
+    width: 20px;
+    border-radius:10px;
+}
+
+.action-btnn{
+    position:absolute;
+    top:-10%;
+    left:105%;
+    width:90%;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    background-color: tomato;
+    color: white;
+}
