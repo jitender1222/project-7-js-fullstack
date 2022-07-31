@@ -8,7 +8,7 @@ In this i learn how to use **Z-index** to stack the element over one another als
 
 It took me around **2hrs** to complete these project.
 
-
+[Live-Link](https://wireless-headphones.netlify.app/)
 
 ![](./thumbnail.png)
 
